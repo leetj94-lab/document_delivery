@@ -8,7 +8,7 @@
 | engineering_drawing | Drawing identities, released revisions, objects and sheet relationships |
 | document_delivery | Handover packages, submitted document snapshots, review and acceptance |
 | digital_twin | Spatial equipment context and synthetic monitoring/work examples |
-| etl_monitoring | Future ingestion runs, transformations, lineage and processing failures |
+| etl_monitoring | Ingestion runs, transformations, lineage and processing failures |
 
 Acceptance criteria here govern document handover, not the equipment master or ETL.
 The equipment and released-drawing registers are explicitly versioned demonstration
@@ -46,3 +46,11 @@ monitoring without changing master-data standard ownership. The twin can read ac
 document references from delivery APIs and open the governed drawing revision.
 
 These backend items are design extensions, not capabilities claimed by this static demo.
+
+## ETL operations available
+
+The etl_monitoring demo at https://leetj94-lab.github.io/etl_monitoring/
+preserves assetId context and supports pipelineId/runId deep links. It processes
+pinned synthetic master, observation, drawing and accepted-handover inputs, with
+quarantine/retry/checkpoint evidence. It does not redefine equipment standards,
+release drawings, accept handovers or synchronize browser-local edits across sites.
