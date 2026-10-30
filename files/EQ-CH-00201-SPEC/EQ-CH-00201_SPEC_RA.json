@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0.0",
+  "synthetic": true,
+  "source": "document_delivery",
+  "siteId": "DEMO-PLANT-01",
+  "documentId": "SPEC-EQ-CH-00201",
+  "documentType": "SPEC",
+  "assetId": "EQ-CH-00201",
+  "revision": "A",
+  "title": "Chiller unit A / SPEC",
+  "manufacturer": "Aster Industries · Fictional",
+  "model": "CH-450",
+  "ownerSystem": "master_data",
+  "specificationStatus": "Illustrative approved sample"
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0.0",
+  "synthetic": true,
+  "source": "document_delivery",
+  "siteId": "DEMO-PLANT-01",
+  "documentId": "SPEC-EQ-AH-00301",
+  "documentType": "SPEC",
+  "assetId": "EQ-AH-00301",
+  "revision": "A",
+  "title": "Air handling unit A / SPEC",
+  "manufacturer": "Aster Industries · Fictional",
+  "model": "AHU-80",
+  "ownerSystem": "master_data",
+  "specificationStatus": "Illustrative approved sample"
+}

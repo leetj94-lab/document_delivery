@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0.0",
+  "synthetic": true,
+  "source": "document_delivery",
+  "siteId": "DEMO-PLANT-01",
+  "documentId": "SPEC-EQ-TK-00401",
+  "documentType": "SPEC",
+  "assetId": "EQ-TK-00401",
+  "revision": "A",
+  "title": "Buffer tank / SPEC",
+  "manufacturer": "Aster Industries · Fictional",
+  "model": "BT-5000",
+  "ownerSystem": "master_data",
+  "specificationStatus": "Illustrative approved sample"
+}

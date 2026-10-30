@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0.0",
+  "synthetic": true,
+  "source": "document_delivery",
+  "siteId": "DEMO-PLANT-01",
+  "documentId": "SPEC-EQ-UT-00144",
+  "documentType": "SPEC",
+  "assetId": "EQ-UT-00144",
+  "revision": "A",
+  "title": "Chilled water pump C / SPEC",
+  "manufacturer": "Aster Industries · Fictional",
+  "model": "CWP-200",
+  "ownerSystem": "master_data",
+  "specificationStatus": "Illustrative approved sample"
+}

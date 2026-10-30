@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0.0",
+  "synthetic": true,
+  "source": "document_delivery",
+  "siteId": "DEMO-PLANT-01",
+  "documentId": "TEST-EQ-AH-00302",
+  "documentType": "TEST",
+  "assetId": "EQ-AH-00302",
+  "revision": "A",
+  "title": "Air handling unit B / TEST",
+  "result": "PASS",
+  "checks": [
+    {
+      "item": "Identity and installation record",
+      "result": "PASS"
+    },
+    {
+      "item": "Document completeness",
+      "result": "PASS"
+    }
+  ],
+  "witness": "Demo witness",
+  "testDate": "2026-10-15"
+}

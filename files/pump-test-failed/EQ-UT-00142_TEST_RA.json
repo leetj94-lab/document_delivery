@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "1.0.0",
+  "synthetic": true,
+  "source": "document_delivery",
+  "siteId": "DEMO-PLANT-01",
+  "documentId": "TEST-EQ-UT-00142",
+  "documentType": "TEST",
+  "assetId": "EQ-UT-00142",
+  "revision": "A",
+  "result": "FAIL"
+}

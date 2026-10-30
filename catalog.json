@@ -1,0 +1,505 @@
+{
+  "schemaVersion": "1.0.0",
+  "siteId": "DEMO-PLANT-01",
+  "synthetic": true,
+  "assets": [
+    {
+      "id": "EQ-UT-00142",
+      "name": "Chilled water pump A",
+      "kind": "pump"
+    },
+    {
+      "id": "EQ-UT-00143",
+      "name": "Chilled water pump B",
+      "kind": "pump"
+    },
+    {
+      "id": "EQ-UT-00144",
+      "name": "Chilled water pump C",
+      "kind": "pump"
+    },
+    {
+      "id": "EQ-CH-00201",
+      "name": "Chiller unit A",
+      "kind": "chiller"
+    },
+    {
+      "id": "EQ-CH-00202",
+      "name": "Chiller unit B",
+      "kind": "chiller"
+    },
+    {
+      "id": "EQ-AH-00301",
+      "name": "Air handling unit A",
+      "kind": "ahu"
+    },
+    {
+      "id": "EQ-AH-00302",
+      "name": "Air handling unit B",
+      "kind": "ahu"
+    },
+    {
+      "id": "EQ-TK-00401",
+      "name": "Buffer tank",
+      "kind": "tank"
+    }
+  ],
+  "drawings": [
+    {
+      "id": "UT-PID-0102",
+      "revision": "C",
+      "assetIds": [
+        "EQ-UT-00142",
+        "EQ-UT-00143",
+        "EQ-UT-00144"
+      ]
+    },
+    {
+      "id": "UT-PID-0101",
+      "revision": "C",
+      "assetIds": [
+        "EQ-CH-00201",
+        "EQ-CH-00202",
+        "EQ-TK-00401"
+      ]
+    },
+    {
+      "id": "UT-PID-0103",
+      "revision": "B",
+      "assetIds": [
+        "EQ-AH-00301",
+        "EQ-AH-00302"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "key": "EQ-UT-00142-DRAWING",
+      "id": "UT-PID-0102",
+      "type": "DRAWING",
+      "assetId": "EQ-UT-00142",
+      "revision": "C",
+      "filename": "EQ-UT-00142_DRAWING_RC.svg",
+      "path": "files/EQ-UT-00142-DRAWING/EQ-UT-00142_DRAWING_RC.svg",
+      "contentPath": "files/EQ-UT-00142-DRAWING/EQ-UT-00142_DRAWING_RC.svg.source.txt",
+      "sha256": "932ff4a17eff1764a23a3847aed881f1d8566141556a20222ba9e56878956b81",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-UT-00142-SPEC",
+      "id": "SPEC-EQ-UT-00142",
+      "type": "SPEC",
+      "assetId": "EQ-UT-00142",
+      "revision": "A",
+      "filename": "EQ-UT-00142_SPEC_RA.json",
+      "path": "files/EQ-UT-00142-SPEC/EQ-UT-00142_SPEC_RA.json",
+      "sha256": "c8af69da3d676a50c8d73cb63a6d1ccc7798695d177986426557d1724a178466",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-UT-00142-TEST",
+      "id": "TEST-EQ-UT-00142",
+      "type": "TEST",
+      "assetId": "EQ-UT-00142",
+      "revision": "A",
+      "filename": "EQ-UT-00142_TEST_RA.json",
+      "path": "files/EQ-UT-00142-TEST/EQ-UT-00142_TEST_RA.json",
+      "sha256": "a7d2404fb569463836d410e32f8e82053f1fdd65865c297c137e904a513889ba",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-UT-00142-MANUAL",
+      "id": "MANUAL-EQ-UT-00142",
+      "type": "MANUAL",
+      "assetId": "EQ-UT-00142",
+      "revision": "A",
+      "filename": "EQ-UT-00142_MANUAL_RA.txt",
+      "path": "files/EQ-UT-00142-MANUAL/EQ-UT-00142_MANUAL_RA.txt",
+      "sha256": "702e5f455c291e2b69d7b26e1f21d9cf98d5444ca37c0dd9ee93005783e30382",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-UT-00143-DRAWING",
+      "id": "UT-PID-0102",
+      "type": "DRAWING",
+      "assetId": "EQ-UT-00143",
+      "revision": "C",
+      "filename": "EQ-UT-00143_DRAWING_RC.svg",
+      "path": "files/EQ-UT-00143-DRAWING/EQ-UT-00143_DRAWING_RC.svg",
+      "contentPath": "files/EQ-UT-00143-DRAWING/EQ-UT-00143_DRAWING_RC.svg.source.txt",
+      "sha256": "1c6c60faf6b85e95afebd31fcca91500c9021b9c8a98cd25ae470b4edb00f229",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-UT-00143-SPEC",
+      "id": "SPEC-EQ-UT-00143",
+      "type": "SPEC",
+      "assetId": "EQ-UT-00143",
+      "revision": "A",
+      "filename": "EQ-UT-00143_SPEC_RA.json",
+      "path": "files/EQ-UT-00143-SPEC/EQ-UT-00143_SPEC_RA.json",
+      "sha256": "1898521f5f43678521af12ece711496936593da2fb90d2f80b7899b9c1fd7bdd",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-UT-00143-TEST",
+      "id": "TEST-EQ-UT-00143",
+      "type": "TEST",
+      "assetId": "EQ-UT-00143",
+      "revision": "A",
+      "filename": "EQ-UT-00143_TEST_RA.json",
+      "path": "files/EQ-UT-00143-TEST/EQ-UT-00143_TEST_RA.json",
+      "sha256": "d44718b8f3c91237c1f7f7e7fe1f2918b39d5ad38fb4364502db3a07ccf166b8",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-UT-00143-MANUAL",
+      "id": "MANUAL-EQ-UT-00143",
+      "type": "MANUAL",
+      "assetId": "EQ-UT-00143",
+      "revision": "A",
+      "filename": "EQ-UT-00143_MANUAL_RA.txt",
+      "path": "files/EQ-UT-00143-MANUAL/EQ-UT-00143_MANUAL_RA.txt",
+      "sha256": "d3beb31aee40e8cbb0e02bbd845da448c9c7260a7e53caddb71db5a745809490",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-UT-00144-DRAWING",
+      "id": "UT-PID-0102",
+      "type": "DRAWING",
+      "assetId": "EQ-UT-00144",
+      "revision": "C",
+      "filename": "EQ-UT-00144_DRAWING_RC.svg",
+      "path": "files/EQ-UT-00144-DRAWING/EQ-UT-00144_DRAWING_RC.svg",
+      "contentPath": "files/EQ-UT-00144-DRAWING/EQ-UT-00144_DRAWING_RC.svg.source.txt",
+      "sha256": "10267a88da18f90e9f892bf290d8f6a5599758048379dcf8e5b914aefdb5f338",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-UT-00144-SPEC",
+      "id": "SPEC-EQ-UT-00144",
+      "type": "SPEC",
+      "assetId": "EQ-UT-00144",
+      "revision": "A",
+      "filename": "EQ-UT-00144_SPEC_RA.json",
+      "path": "files/EQ-UT-00144-SPEC/EQ-UT-00144_SPEC_RA.json",
+      "sha256": "f9e80cc7afc7eb61b873df30d8ff0c67dc2e9660763a9ef156215a353b79e959",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-UT-00144-TEST",
+      "id": "TEST-EQ-UT-00144",
+      "type": "TEST",
+      "assetId": "EQ-UT-00144",
+      "revision": "A",
+      "filename": "EQ-UT-00144_TEST_RA.json",
+      "path": "files/EQ-UT-00144-TEST/EQ-UT-00144_TEST_RA.json",
+      "sha256": "2e0a16db0a864c2ec323d64b975467ca4d58aea973f0a9326e91215a82ae1bd9",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-UT-00144-MANUAL",
+      "id": "MANUAL-EQ-UT-00144",
+      "type": "MANUAL",
+      "assetId": "EQ-UT-00144",
+      "revision": "A",
+      "filename": "EQ-UT-00144_MANUAL_RA.txt",
+      "path": "files/EQ-UT-00144-MANUAL/EQ-UT-00144_MANUAL_RA.txt",
+      "sha256": "c653ce7b6dcea7ae251e8561d7b055369e879e6c669dc217410c3b67c10790d9",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-CH-00201-DRAWING",
+      "id": "UT-PID-0101",
+      "type": "DRAWING",
+      "assetId": "EQ-CH-00201",
+      "revision": "C",
+      "filename": "EQ-CH-00201_DRAWING_RC.svg",
+      "path": "files/EQ-CH-00201-DRAWING/EQ-CH-00201_DRAWING_RC.svg",
+      "contentPath": "files/EQ-CH-00201-DRAWING/EQ-CH-00201_DRAWING_RC.svg.source.txt",
+      "sha256": "1c17fee8d4d902052103f0b54e40e3d259a32d1ff65690d0df5635c7a4c49406",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-CH-00201-SPEC",
+      "id": "SPEC-EQ-CH-00201",
+      "type": "SPEC",
+      "assetId": "EQ-CH-00201",
+      "revision": "A",
+      "filename": "EQ-CH-00201_SPEC_RA.json",
+      "path": "files/EQ-CH-00201-SPEC/EQ-CH-00201_SPEC_RA.json",
+      "sha256": "08b9c1cc2697292e26c7b7b6983d194d99822bb8a068355e91f278144fe46528",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-CH-00201-TEST",
+      "id": "TEST-EQ-CH-00201",
+      "type": "TEST",
+      "assetId": "EQ-CH-00201",
+      "revision": "A",
+      "filename": "EQ-CH-00201_TEST_RA.json",
+      "path": "files/EQ-CH-00201-TEST/EQ-CH-00201_TEST_RA.json",
+      "sha256": "37651d4c381ed234e4e7e5b99f2309acd73dde994f996ead8c7a8949be8d20f1",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-CH-00201-MANUAL",
+      "id": "MANUAL-EQ-CH-00201",
+      "type": "MANUAL",
+      "assetId": "EQ-CH-00201",
+      "revision": "A",
+      "filename": "EQ-CH-00201_MANUAL_RA.txt",
+      "path": "files/EQ-CH-00201-MANUAL/EQ-CH-00201_MANUAL_RA.txt",
+      "sha256": "aaf043b5730dbf487ee8d727fbd7209fc63cf6a08909ae7a4480113219b304ee",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-CH-00202-DRAWING",
+      "id": "UT-PID-0101",
+      "type": "DRAWING",
+      "assetId": "EQ-CH-00202",
+      "revision": "C",
+      "filename": "EQ-CH-00202_DRAWING_RC.svg",
+      "path": "files/EQ-CH-00202-DRAWING/EQ-CH-00202_DRAWING_RC.svg",
+      "contentPath": "files/EQ-CH-00202-DRAWING/EQ-CH-00202_DRAWING_RC.svg.source.txt",
+      "sha256": "0d2b99237556569b0eb3dcb14c4e2bcff2c8e47bbb182c3e27ab4916589e67d9",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-CH-00202-SPEC",
+      "id": "SPEC-EQ-CH-00202",
+      "type": "SPEC",
+      "assetId": "EQ-CH-00202",
+      "revision": "A",
+      "filename": "EQ-CH-00202_SPEC_RA.json",
+      "path": "files/EQ-CH-00202-SPEC/EQ-CH-00202_SPEC_RA.json",
+      "sha256": "29fa212cdfd2dbe886af0a4384db843d7fa1520a6cdcc3184cf9946f2bd87559",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-CH-00202-TEST",
+      "id": "TEST-EQ-CH-00202",
+      "type": "TEST",
+      "assetId": "EQ-CH-00202",
+      "revision": "A",
+      "filename": "EQ-CH-00202_TEST_RA.json",
+      "path": "files/EQ-CH-00202-TEST/EQ-CH-00202_TEST_RA.json",
+      "sha256": "2b18b09d687ff153ffa5c766f960e8eaf453a3a4238b218027afa1cc4b178696",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-CH-00202-MANUAL",
+      "id": "MANUAL-EQ-CH-00202",
+      "type": "MANUAL",
+      "assetId": "EQ-CH-00202",
+      "revision": "A",
+      "filename": "EQ-CH-00202_MANUAL_RA.txt",
+      "path": "files/EQ-CH-00202-MANUAL/EQ-CH-00202_MANUAL_RA.txt",
+      "sha256": "529144c583fe078b2a5f2207b5395417ffd3aec25bdb18811fad744802b6c6f4",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-AH-00301-DRAWING",
+      "id": "UT-PID-0103",
+      "type": "DRAWING",
+      "assetId": "EQ-AH-00301",
+      "revision": "B",
+      "filename": "EQ-AH-00301_DRAWING_RB.svg",
+      "path": "files/EQ-AH-00301-DRAWING/EQ-AH-00301_DRAWING_RB.svg",
+      "contentPath": "files/EQ-AH-00301-DRAWING/EQ-AH-00301_DRAWING_RB.svg.source.txt",
+      "sha256": "a541af0871bdd6b6e15ceac852fd30ab307ab3c1b328fd82a51862275297122d",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-AH-00301-SPEC",
+      "id": "SPEC-EQ-AH-00301",
+      "type": "SPEC",
+      "assetId": "EQ-AH-00301",
+      "revision": "A",
+      "filename": "EQ-AH-00301_SPEC_RA.json",
+      "path": "files/EQ-AH-00301-SPEC/EQ-AH-00301_SPEC_RA.json",
+      "sha256": "33552ac6172e51c770d3f0d9a2d7bc68874552bba7a5d2273de70d97424ba2f1",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-AH-00301-TEST",
+      "id": "TEST-EQ-AH-00301",
+      "type": "TEST",
+      "assetId": "EQ-AH-00301",
+      "revision": "A",
+      "filename": "EQ-AH-00301_TEST_RA.json",
+      "path": "files/EQ-AH-00301-TEST/EQ-AH-00301_TEST_RA.json",
+      "sha256": "6e0d085a1efcacfadb260b1838a29b0982a5e5ebbd2d25a886bfd19b280a52d9",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-AH-00301-MANUAL",
+      "id": "MANUAL-EQ-AH-00301",
+      "type": "MANUAL",
+      "assetId": "EQ-AH-00301",
+      "revision": "A",
+      "filename": "EQ-AH-00301_MANUAL_RA.txt",
+      "path": "files/EQ-AH-00301-MANUAL/EQ-AH-00301_MANUAL_RA.txt",
+      "sha256": "ddd76b59f0da8e6fa64d5bc28a8cf77794965e6f29cabbb26edc136a4264162f",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-AH-00302-DRAWING",
+      "id": "UT-PID-0103",
+      "type": "DRAWING",
+      "assetId": "EQ-AH-00302",
+      "revision": "B",
+      "filename": "EQ-AH-00302_DRAWING_RB.svg",
+      "path": "files/EQ-AH-00302-DRAWING/EQ-AH-00302_DRAWING_RB.svg",
+      "contentPath": "files/EQ-AH-00302-DRAWING/EQ-AH-00302_DRAWING_RB.svg.source.txt",
+      "sha256": "9f7d28fbe37a23e8d87b8a51857c31580e44b326834d38a1b1cf6bc829cfcb78",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-AH-00302-SPEC",
+      "id": "SPEC-EQ-AH-00302",
+      "type": "SPEC",
+      "assetId": "EQ-AH-00302",
+      "revision": "A",
+      "filename": "EQ-AH-00302_SPEC_RA.json",
+      "path": "files/EQ-AH-00302-SPEC/EQ-AH-00302_SPEC_RA.json",
+      "sha256": "0cda9928de4786e81389e0b0b7c04ad7416cb141c4538638a85a24e7066ea6e0",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-AH-00302-TEST",
+      "id": "TEST-EQ-AH-00302",
+      "type": "TEST",
+      "assetId": "EQ-AH-00302",
+      "revision": "A",
+      "filename": "EQ-AH-00302_TEST_RA.json",
+      "path": "files/EQ-AH-00302-TEST/EQ-AH-00302_TEST_RA.json",
+      "sha256": "f2d5f292658b7a79f3dd7bcbfa93080080ecc03b9a6d7f3c523c10ccab42f1c1",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-AH-00302-MANUAL",
+      "id": "MANUAL-EQ-AH-00302",
+      "type": "MANUAL",
+      "assetId": "EQ-AH-00302",
+      "revision": "A",
+      "filename": "EQ-AH-00302_MANUAL_RA.txt",
+      "path": "files/EQ-AH-00302-MANUAL/EQ-AH-00302_MANUAL_RA.txt",
+      "sha256": "860d9083cb18b314ddf9ab5b2ed56f2b88021f7423550e73a82491b58ce1647b",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-TK-00401-DRAWING",
+      "id": "UT-PID-0101",
+      "type": "DRAWING",
+      "assetId": "EQ-TK-00401",
+      "revision": "C",
+      "filename": "EQ-TK-00401_DRAWING_RC.svg",
+      "path": "files/EQ-TK-00401-DRAWING/EQ-TK-00401_DRAWING_RC.svg",
+      "contentPath": "files/EQ-TK-00401-DRAWING/EQ-TK-00401_DRAWING_RC.svg.source.txt",
+      "sha256": "6bcef0f322a2cace3978335c5cd2eacdc53a9cd568f5b711aaf32d72d5cdf607",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-TK-00401-SPEC",
+      "id": "SPEC-EQ-TK-00401",
+      "type": "SPEC",
+      "assetId": "EQ-TK-00401",
+      "revision": "A",
+      "filename": "EQ-TK-00401_SPEC_RA.json",
+      "path": "files/EQ-TK-00401-SPEC/EQ-TK-00401_SPEC_RA.json",
+      "sha256": "90b4ca368becf1eb99fbc6c3c743f5aa61af0516d06dd93f56058ce4ce80a2a0",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-TK-00401-TEST",
+      "id": "TEST-EQ-TK-00401",
+      "type": "TEST",
+      "assetId": "EQ-TK-00401",
+      "revision": "A",
+      "filename": "EQ-TK-00401_TEST_RA.json",
+      "path": "files/EQ-TK-00401-TEST/EQ-TK-00401_TEST_RA.json",
+      "sha256": "d29a17b6105150c6b3e00209c8cac0f6001d90819cd7875caa6ea623f22bc0b3",
+      "label": "Current sample"
+    },
+    {
+      "key": "EQ-TK-00401-MANUAL",
+      "id": "MANUAL-EQ-TK-00401",
+      "type": "MANUAL",
+      "assetId": "EQ-TK-00401",
+      "revision": "A",
+      "filename": "EQ-TK-00401_MANUAL_RA.txt",
+      "path": "files/EQ-TK-00401-MANUAL/EQ-TK-00401_MANUAL_RA.txt",
+      "sha256": "e060304cf65da6417bd6fa611a9ec88b85607bc7f3d64ac7692d4c1e0393bb19",
+      "label": "Current sample"
+    },
+    {
+      "key": "pump-drawing-superseded",
+      "id": "UT-PID-0102",
+      "type": "DRAWING",
+      "assetId": "EQ-UT-00142",
+      "revision": "B",
+      "filename": "EQ-UT-00142_DRAWING_RB.svg",
+      "path": "files/pump-drawing-superseded/EQ-UT-00142_DRAWING_RB.svg",
+      "contentPath": "files/pump-drawing-superseded/EQ-UT-00142_DRAWING_RB.svg.source.txt",
+      "sha256": "6e86d2989134f7371b863191f8c615bec3336a3bba7cda1217a2ab1bf1a6f7af",
+      "label": "Superseded revision B"
+    },
+    {
+      "key": "pump-test-failed",
+      "id": "TEST-EQ-UT-00142",
+      "type": "TEST",
+      "assetId": "EQ-UT-00142",
+      "revision": "A",
+      "filename": "EQ-UT-00142_TEST_RA.json",
+      "path": "files/pump-test-failed/EQ-UT-00142_TEST_RA.json",
+      "sha256": "93852ea05c23c6798a31316e7f6ace9610588c0da846a433292e7bd92a8cfab3",
+      "label": "Failed certificate exercise"
+    }
+  ],
+  "packages": [
+    {
+      "id": "DEL-0001",
+      "assetId": "EQ-UT-00142",
+      "title": "Cooling pump A · Equipment handover",
+      "supplier": "Aster Engineering · Sample",
+      "due": "2026-11-10",
+      "status": "Draft",
+      "fileKeys": [
+        "pump-drawing-superseded",
+        "EQ-UT-00142-SPEC",
+        "EQ-UT-00142-MANUAL"
+      ]
+    },
+    {
+      "id": "DEL-0002",
+      "assetId": "EQ-CH-00201",
+      "title": "Chiller A · Commissioning dossier",
+      "supplier": "Northline Utilities · Sample",
+      "due": "2026-10-25",
+      "status": "Draft",
+      "fileKeys": [
+        "EQ-CH-00201-DRAWING",
+        "EQ-CH-00201-SPEC",
+        "EQ-CH-00201-TEST",
+        "EQ-CH-00201-MANUAL"
+      ],
+      "demoStage": "Accepted"
+    },
+    {
+      "id": "DEL-0003",
+      "assetId": "EQ-AH-00301",
+      "title": "Air handling A · Technical documents",
+      "supplier": "Aster Engineering · Sample",
+      "due": "2026-11-05",
+      "status": "Draft",
+      "fileKeys": [
+        "EQ-AH-00301-DRAWING",
+        "EQ-AH-00301-SPEC",
+        "EQ-AH-00301-TEST",
+        "EQ-AH-00301-MANUAL"
+      ],
+      "demoStage": "Submitted"
+    }
+  ]
+}

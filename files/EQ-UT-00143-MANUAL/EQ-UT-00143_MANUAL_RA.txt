@@ -1,0 +1,18 @@
+schemaVersion: 1.0.0
+synthetic: true
+source: document_delivery
+siteId: DEMO-PLANT-01
+documentId: MANUAL-EQ-UT-00143
+documentType: MANUAL
+assetId: EQ-UT-00143
+revision: A
+
+OPERATION & MAINTENANCE GUIDE — SYNTHETIC SAMPLE
+
+Equipment: Chilled water pump B
+1. Verify isolation and permit before work.
+2. Check connections and condition before startup.
+3. Use the governed master for maintenance criteria.
+4. Record inspection findings in the work system.
+
+Illustrative content only; not an approved operating procedure.
