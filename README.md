@@ -22,7 +22,16 @@ layouts are reproduced. Engineering content is illustrative and not for construc
   altered content/registered-digest mismatches are blocked by domain checks.
 - Replace/attach/download samples or attach a compatible structured UTF-8 local file
   (SVG/JSON/TXT, max 200 KB). Local file content stays in browser memory/localStorage.
-  Only allowlisted bundled drawings are shown as images; local SVGs are source text.
+  Allowlisted bundled drawings open in an interactive SVG/XML review workspace;
+  unrecognized local SVGs remain source text.
+- Open drawing from the document table to inspect the exact attached revision, zoom,
+  pan, select objects, identify red-boxed invalid objects and click findings to focus.
+  Follow actual OPC arrows to reciprocal endpoints on another reference sheet and use
+  Previous sheet to return. Extracted title fields and object checks use actual XML.
+- The seven-sheet pinned reference library includes a deliberate draft with five
+  violations. Reference navigation is clearly labeled and never replaces an attachment
+  or changes a submitted/accepted package. Superseded attachment revisions remain
+  visible with their package-level revision finding.
 - Demo roles: Supplier prepares/submits; Reviewer returns or approves; Admin accepts.
   Domain actions enforce the role/status matrix and validation before state transitions.
   Submitted/approved/accepted packages are locked; returned packages can be corrected.

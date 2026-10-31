@@ -54,3 +54,14 @@ preserves assetId context and supports pipelineId/runId deep links. It processes
 pinned synthetic master, observation, drawing and accepted-handover inputs, with
 quarantine/retry/checkpoint evidence. It does not redefine equipment standards,
 release drawings, accept handovers or synchronize browser-local edits across sites.
+
+## Interactive drawing review
+
+The bundled drawing-review core (catalog/domain/XML extractor) and seven original
+SVGs mirror engineering_drawing commit 4186e43abf1841e422d5a610c40b8fd739372451.
+The mirror is self-contained and built with SHA-256 source companions so review works
+without another origin or live service. Actual package attachment bytes are opened
+only when their hash matches the bundled attachment catalog. Reference navigation
+uses its separate pinned library; it never mutates the handover package. The package
+acceptance validator remains separate from reference-sheet inspection. Unknown local
+SVGs remain text-only; no general SVG sanitizer or CAD converter is claimed.

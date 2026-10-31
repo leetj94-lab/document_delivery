@@ -18,4 +18,4 @@ jobs:
       - run: npm test
       - run: node --check src/app.js
       - name: Check committed main-branch publication
-        run: git diff --exit-code -- index.html app.js domain.js hash.js style.css catalog.json files .nojekyll
+        run: git diff --exit-code -- index.html app.js domain.js hash.js drawing-viewer.js drawing-core drawing-library style.css catalog.json files .nojekyll

@@ -1,0 +1,37 @@
+[
+  {
+    "file": "UT-GA-0201-A.svg",
+    "path": "drawing-library/UT-GA-0201-A.svg.source.txt",
+    "sha256": "292522512e9d5b9c49514622a438aac92abbad6dafec376da5d26612b6d68db4"
+  },
+  {
+    "file": "UT-PID-0101-C.svg",
+    "path": "drawing-library/UT-PID-0101-C.svg.source.txt",
+    "sha256": "21298eb99155c7e841adf1d0f55a09ad7fbe1bfd002f16077a3af3d030747b88"
+  },
+  {
+    "file": "UT-PID-0102-B.svg",
+    "path": "drawing-library/UT-PID-0102-B.svg.source.txt",
+    "sha256": "e4ec1e8888fe43cf77fa15f0d3f376a3e94c76ed0ea65c09887507911fe8ee0c"
+  },
+  {
+    "file": "UT-PID-0102-C.svg",
+    "path": "drawing-library/UT-PID-0102-C.svg.source.txt",
+    "sha256": "5fbf91a2d0dc940692d834fb2dae43906cacc48fa22ba69470f8da0634f652bf"
+  },
+  {
+    "file": "UT-PID-0103-B.svg",
+    "path": "drawing-library/UT-PID-0103-B.svg.source.txt",
+    "sha256": "c1d7e5d8c2d60b2d168ffe0f530e5f24c698ba3afed243889025d946c8ab2bb7"
+  },
+  {
+    "file": "UT-PID-0199-A.svg",
+    "path": "drawing-library/UT-PID-0199-A.svg.source.txt",
+    "sha256": "9ddf9035ae9adce9da37f6cadb431054f5a71efbf783de371937310487eaae25"
+  },
+  {
+    "file": "UT-SLD-0301-B.svg",
+    "path": "drawing-library/UT-SLD-0301-B.svg.source.txt",
+    "sha256": "93abd0b93050bfab5fb744e19ba427f9022ac5d498a3c6dd57c1231a22ff16c0"
+  }
+]

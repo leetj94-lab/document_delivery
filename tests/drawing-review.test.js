@@ -1,0 +1,10 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {DRAWINGS,getDrawing} from '../src/drawing-core/catalog.js';
+import {resolveConnector,inspectDocument} from '../src/drawing-core/domain.js';
+const root=new URL('../',import.meta.url),manifest=JSON.parse(readFileSync(new URL('drawing-library/manifest.json',root),'utf8'));
+test('all seven structured reference sheets have exact verified source companions',()=>{assert.equal(manifest.length,7);assert.equal(DRAWINGS.length,7);for(const d of DRAWINGS){const m=manifest.find(m=>m.file===d.file);assert.ok(m);const text=readFileSync(new URL(m.path,root),'utf8');assert.equal(createHash('sha256').update(text).digest('hex'),m.sha256);assert.equal(readFileSync(new URL('drawing-library/'+d.file,root),'utf8'),text);assert.ok(!/<script\b|\son\w+\s*=|<foreignObject\b/i.test(text));assert.ok(text.includes('data-object-id='));}});
+test('handover viewer reference OPC resolves forward and back; broken OPC is blocked',()=>{const pump=getDrawing('UT-PID-0102','B'),opc=pump.objects.find(o=>o.id==='OPC-202'),destination=resolveConnector(pump,opc);assert.equal(destination.drawing.id,'UT-PID-0103');assert.equal(destination.object.id,'OPC-301');assert.equal(resolveConnector(destination.drawing,destination.object).drawing.id,pump.id);const draft=getDrawing('UT-PID-0199');assert.throws(()=>resolveConnector(draft,draft.objects.find(o=>o.type==='opc')));});
+test('reference validation identifies invalid equipment object and broken connector',()=>{const d=getDrawing('UT-PID-0199'),extracted={titleBlock:{drawingId:d.id,title:d.title,revision:d.revision,siteId:d.siteId,area:d.area,date:d.date,scale:'',size:d.size,drawnBy:d.drawnBy,approvedBy:''},objects:d.objects};const issues=inspectDocument(extracted,d);assert.equal(issues.length,5);assert.deepEqual([...new Set(issues.map(i=>i.objectId).filter(Boolean))].sort(),['OPC-X','P-X']);assert.ok(issues.some(i=>i.rule==='OBJ-002'&&i.objectId==='P-X'));});
